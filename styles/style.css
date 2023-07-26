@@ -104,11 +104,15 @@ header li :hover {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: ;
 }
 
 .cardlist li {
   font-family: 'Kanit', sans-serif;
+}
+
+.aboutmetitle {
+  color: var(--lightgray2)
 }
 
 button {
@@ -155,6 +159,7 @@ li a {
   }
 
   header {
+    margin: 0px 0px 15px 0px;
     flex-direction: column;
   }
 
@@ -180,7 +185,7 @@ li a {
   }
 
   .card {
-    margin: 0 auto;
+    margin: 50px auto;
   }
 
   #homepage_fruit {
