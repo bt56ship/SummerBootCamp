@@ -1,0 +1,141 @@
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;  
+  text-align: center;
+  height: 100vh
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+
+:root {
+  --mathgreen1: #004B23;
+  --mathgreen2: #006400;
+  --mathgreen3: #008000;
+  --mathgreen4: #38B000;
+  --mathgreen5: #70E000;
+  --mathgreen6: #9EF01A;
+}
+
+:root {
+  --sportsred1: #370617;
+  --sportsred2: #6A040F;
+  --sportsred3: #9D0208;
+  --sportsred4: #D00000;
+  --sportsred5: #DC2F02;
+  --sportsred6: #E85D04;
+}
+
+:root {
+  --codeblue1: #03045E;
+  --codeblue2: #023E8A;
+  --codeblue3: #0077B6;
+  --codeblue4: #0096C7;
+  --codeblue5: #00B4D8;
+  --codeblue6: #48CAE4;
+}
+
+:root {
+  --backgroundblack1: #000000;
+  --backgroundgray2: #161a1d;
+  --backgroundgray3: #595959;
+  --backgroundgray4: #b1a7a6;
+}
+
+.background {
+  padding: 74px 50px;
+  background-color: var(--backgroundblack1);
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  
+}
+
+.sportscard {
+   width: 28%;
+  background-color: var(--sportsred2);
+  color: var(--lightgray2);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 15px;
+  min-width: 280px;
+}
+
+.sportscard h2 {
+  font-size: 1.5em;
+}
+
+.mathcard {
+   width: 28%;
+  background-color: var(--mathgreen2);
+  color: var(--lightgray2);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 15px;
+  min-width: 280px;
+}
+
+.mat
+
+.codecard {
+   width: 28%;
+  background-color: var(--codeblue2);
+  color: var(--lightgray2);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 15px;
+  min-width: 280px;
+}
+
+.co

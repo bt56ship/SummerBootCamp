@@ -26,6 +26,7 @@
 h1 {
   margin: 0;
   font-family: 'Kanit', sans-serif;
+  color: var(--backgroundgray4)
 }
 
 p {
@@ -38,7 +39,7 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: var(--lighterblue2);
+  background-color: var(--backgroundblack1);
   font-weight: 300;
   padding: 15px;
   justify-content: center;
@@ -58,7 +59,7 @@ header ul {
 
 header li a {
   text-decoration: none;
-  color: black;
+  color: var(--backgroundgray4);
   font-size: 1.2rem;
 }
 
@@ -199,4 +200,11 @@ li a {
   .business_information {
     grid-row: 3;
   }
+}
+
+:root {
+  --backgroundblack1: #000000;
+  --backgroundgray2: #161a1d;
+  --backgroundgray3: #595959;
+  --backgroundgray4: #b1a7a6;
 }
