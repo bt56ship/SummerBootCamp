@@ -3,21 +3,21 @@
 }
 
 .title-word-1 {
-  --color-1: #DF8453;
-  --color-2: #3D8DAE;
-  --color-3: #E4A9A8;
+  --color-1: #38B000;
+  --color-2: #0077B6;
+  --color-3: #E85D04;
 }
 
 .title-word-2 {
-  --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
+  --color-1: #0077B6;
+  --color-2: #D00000;
+  --color-3: #9EF01A;
 }
 
 .title-word-3 {
-  --color-1: #ACCFCB;
-  --color-2: #E4A9A8;
-  --color-3: #ACCFCB;
+  --color-1: #D00000;
+  --color-2: #38B000;
+  --color-3: #48CAE4;
 }
 
 .title-word-4 {
@@ -42,13 +42,13 @@
   display: grid;
   place-items: center;  
   text-align: center;
-  height: 100vh
+  height: 100vh;
 }
 
 .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 800;
-  font-size: 8.5vw;
+  font-size: 0.85em;
   text-transform: uppercase;
 }
 
@@ -86,9 +86,17 @@
   --backgroundgray4: #b1a7a6;
 }
 
+:root {
+  --black2: #212529;
+  --lighterblue2: #3C6E71;
+  --white2: #FFFFFF;
+  --lightgray2: #D9D9D9;
+  --darkblue2: #284B63;
+}
+
 .background {
   padding: 74px 50px;
-  background-color: var(--backgroundblack1);
+  background-color: var(--black2);
   display: flex;
   gap: 35px;
   flex-wrap: wrap;
@@ -102,7 +110,7 @@ h2 {
 .sportscard {
    width: 28%;
   background-color: var(--sportsred2);
-  color: var(--lightgray2);
+  color: var(--backgroundblack1);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -117,7 +125,7 @@ h2 {
 .mathcard {
    width: 28%;
   background-color: var(--mathgreen2);
-  color: var(--lightgray2);
+  color: var(--backgroundblack1);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -132,7 +140,7 @@ h2 {
 .codecard {
    width: 28%;
   background-color: var(--codeblue2);
-  color: var(--lightgray2);
+  color: var(--backgroundblack1);
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;

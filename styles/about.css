@@ -8,3 +8,79 @@ main {
         padding-top: 100px;
     }
 }
+
+.aboutmetitle {
+  color: var(--lightgray2);
+  font-family: 'Kanit', sans-serif;
+}
+
+.background {
+  padding: 74px 50px;
+  background-color: var(--black2);
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.sportscard li {
+   list-style-position: inside;
+  color: var(--sportsred5);
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+}
+.mathcard li {
+   list-style-position: inside;
+  color: var(--mathgreen5);
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+}
+.codecard li {
+   list-style-position: inside;
+  color: var(--codeblue5);
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+}
+
+:root {
+  --mathgreen1: #004B23;
+  --mathgreen2: #006400;
+  --mathgreen3: #008000;
+  --mathgreen4: #38B000;
+  --mathgreen5: #70E000;
+  --mathgreen6: #9EF01A;
+}
+
+:root {
+  --sportsred1: #370617;
+  --sportsred2: #6A040F;
+  --sportsred3: #9D0208;
+  --sportsred4: #D00000;
+  --sportsred5: #DC2F02;
+  --sportsred6: #E85D04;
+}
+
+:root {
+  --codeblue1: #03045E;
+  --codeblue2: #023E8A;
+  --codeblue3: #0077B6;
+  --codeblue4: #0096C7;
+  --codeblue5: #00B4D8;
+  --codeblue6: #48CAE4;
+}
+
+:root {
+  --backgroundblack1: #000000;
+  --backgroundgray2: #161a1d;
+  --backgroundgray3: #595959;
+  --backgroundgray4: #b1a7a6;
+}
+
+:root {
+  --black2: #212529;
+  --lighterblue2: #3C6E71;
+  --white2: #FFFFFF;
+  --lightgray2: #D9D9D9;
+  --darkblue2: #284B63;
+}

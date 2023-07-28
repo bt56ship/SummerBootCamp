@@ -112,10 +112,6 @@ ul {
   font-family: 'Kanit', sans-serif;
 }
 
-.aboutmetitle {
-  color: var(--lightgray2)
-}
-
 button {
   width: 50%;
   background-color: gray;
